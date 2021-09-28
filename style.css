@@ -1,0 +1,110 @@
+body {
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  background: linear-gradient(236.85deg, #041832 27.26%, #003049 50.03%);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+#box {
+  margin: 0;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin-top: 49px;
+  margin-bottom: 49px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 30px 64px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.foto-portfolio {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 00px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-box {
+  margin-left: 10px;
+}
+
+.main-box h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.main-box h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 20px;
+}
+
+.card-project {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  padding: 32px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  border-radius: 20px;
+}
+
+.card-project .titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
